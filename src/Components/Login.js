@@ -1,6 +1,6 @@
 import React,{Component} from 'react';
 import Button from '@material-ui/core/Button';
-import Textfield from '@material-ui/core/Textfield';
+//import Textfield from '@material-ui/core/Textfield';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './Header';
 import axios from 'axios';
@@ -49,11 +49,11 @@ class Login extends Component{
                     <tbody>
                         <tr>
                             <td><label>User Id</label></td>
-                            <td><Textfield placeholder="Enter UserId" id="userName" name="userName" onChange={this.handleChange}/></td>
+                            <td><input type="text" placeholder="Enter UserId" id="userName" name="userName" onChange={this.handleChange}/></td>
                         </tr>
                         <tr>
                             <td><label>Password</label></td>
-                            <td><Textfield type="password" placeholder="Enter Password" id="password" name="password" onChange={this.handleChange}/></td>
+                            <td><input type="password" placeholder="Enter Password" id="password" name="password" onChange={this.handleChange}/></td>
                         </tr>
                         <tr>
                             <td><label></label></td>
