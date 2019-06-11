@@ -1,0 +1,63 @@
+.App {
+  text-align: center;
+}
+
+.main{
+  margin-left:300px;
+  margin-right:300px;
+  margin-top:20px;
+  border-style:solid;
+  border-color:#ff6200;
+}
+/*header styling*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding-left:0px;
+  overflow: hidden;
+  border-style:solid;
+  border-color:#ff6200;
+  color:#010154;
+  width:100%;
+  background-color:#ff6200;
+}
+
+li {
+  float: left;
+}
+.textcolor{
+  color:#ff6200;
+}
+
+.title{
+  width:100%
+}
+.titlespace{
+  padding-left:400px;
+}
+.button1 {
+  background-color: white;
+  color: black;
+}
+/*For Homepage*/
+.home{
+  border-style:solid;
+  border-color:#ff6200;
+  margin-top:40px;
+  margin-left:200px;
+  margin-right:200px;
+  padding-bottom:400px;
+}
+
+.homelist{
+  padding-left:200px;
+  padding-top:30px;
+}
+.bodytitle{
+  padding-top:20px;
+}
+
+/*for account details*/
+.tablealign{
+  padding-left:200px;
+}
