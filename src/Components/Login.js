@@ -1,8 +1,6 @@
 import React,{Component} from 'react';
 import Button from '@material-ui/core/Button';
-//import Textfield from '@material-ui/core/Textfield';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Header from './Header';
 import axios from 'axios';
 
 class Login extends Component{
@@ -27,7 +25,7 @@ class Login extends Component{
     login=()=>{
         const{loginData}=this.state;
         //this.props.history.push('/home/'+"1")
-        axios.post('http://13.233.166.249:5555/retailbankapp/retailbank/login',loginData).then((response)=>{
+        axios.post('http://13.233.166.249:6666/retailbankapp/retailbank/login',loginData).then((response)=>{
             console.log(response);
             if(response.data.statusCode===404){
                 alert(response.data.message);

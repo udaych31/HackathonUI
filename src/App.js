@@ -1,5 +1,5 @@
 import React from 'react';
-import {BrowserRouter,Route,HashRouter} from 'react-router-dom';
+import {Route,HashRouter} from 'react-router-dom';
 import Login from './Components/Login';
 import Home from './Components/Home';
 import Header from './Components/Header';
@@ -16,7 +16,7 @@ function App() {
           <Route path='/' component={Login} exact></Route>
           <Route path='/login' component={Login}></Route>
           <Route path='/home/:accNo' component={Home}></Route>   
-          <Route path='/accDetails' component={AccountDetails}></Route>
+          <Route path='/accDetails/:accno/:balance/:date' component={AccountDetails}></Route>
           <Route path='/fundTransfer/:accNum' component={FundTransfer}></Route>
         </div>
       </HashRouter>

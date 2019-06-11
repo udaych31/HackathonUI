@@ -10,6 +10,11 @@
   border-color:#ff6200;
 }
 /*header styling*/
+marquee{
+background-color: #010154;
+color:#ff6200
+}
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -55,9 +60,39 @@ li {
 }
 .bodytitle{
   padding-top:20px;
+  background-color: #ff6200;
 }
 
 /*for account details*/
 .tablealign{
   padding-left:200px;
+}
+
+/*in fund transfer page*/
+.fundtable{
+  padding-left:200px;
+}
+
+/*account details page*/
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.bord{
+  border-style: solid;
+  border-color: #ff6200;
 }
